@@ -19,6 +19,53 @@
     background-color: aliceblue;
 }
 
+.hero-section .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section .left .discount {
+    margin-top: 30px;
+    padding: 5px 25px;
+    background-color: rgb(250, 253, 169);
+    width: 230px;
+    border-radius: 50px;
+}
+
+.hero-section .left h2 {
+    font-size: 60px;
+}
+
+.hero-section .left .btn-container {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section .left .btn-container button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+.hero-section .left .btn-container .btn-left {
+    background-color: rgb(152, 249, 91);
+}
+
+.hero-section .left .btn-container .btn-right {
+    background-color: rgb(255, 255, 255);
+}
+
+.hero-section .left .rating-delivery {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section .left .rating-delivery i {
+    color: rgb(112, 242, 37);
+}
+
 .hero-section .right {
     display: flex;
     justify-content: end;
