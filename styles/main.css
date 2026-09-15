@@ -239,3 +239,74 @@
     align-items: center;
     font-size: 30px;
 }
+
+.popular{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.popular .screen-width h2{
+    font-size: 30px;
+}
+
+.popular .card-container2{
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    /* justify-content: center; */
+    gap: 20px;
+    /* background-color: aquamarine; */
+}
+
+.popular .screen-width .card-container2 .card2{
+    /* width: 30%; */
+    /* height: 100%; */
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.popular .screen-width .card2 .image{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+}
+
+.popular .card-container2 .card2 .image img{
+    width: 100%;
+}
+
+.popular .card-container2 .card2 .text-icon{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgb(18, 101, 101); */
+
+}
+.popular .screen-width .card2 .text{
+    /* width: 100%; */
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.popular .screen-width .card2 .icon{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 255, 99);
+    border-radius: 50%;
+
+}
